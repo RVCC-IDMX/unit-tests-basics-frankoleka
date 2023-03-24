@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Learning Skills for Basic JavaScript",
   "scripts": {
-    "test:1": "vitest tests/js-basic-01.test.js --globals --run --reporter verbose",
+    "test:1": "js-basic-01.test.js",
     "test:2": "vitest tests/js-basic-02.test.js --globals --run --reporter verbose",
     "test:3": "vitest tests/js-basic-03.test.js --globals --run --reporter verbose",
     "test:4": "vitest tests/js-basic-04.test.js --globals --run --reporter verbose",
