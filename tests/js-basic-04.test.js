@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable prefer-const */
 /* eslint-disable radix */
@@ -171,13 +172,11 @@ TODO: In line 6: Using the Math object, round rounding3 to the nearest integer
 
 // * Add your code BELOW here
 let rounding1 = 5.95;
-let rounded1 = Math.round(rounding1);
-
+rounding1 = Math.round(rounding1);
 let rounding2 = 5.5;
-let rounded2 = Math.round(rounding2);
-
+rounding2 = Math.round(rounding2);
 let rounding3 = 5.05;
-let rounded3 = Math.round(rounding3);
+rounding3 = Math.round(rounding3);
 // * Don't mess with the test code below here!
 
 test('rounding', () => {

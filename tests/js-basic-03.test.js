@@ -84,7 +84,7 @@ TODO: Do not use the reserved word true.
 */
 
 // * Add your code BELOW here
-let isTruthy = truthy;
+let isTruthy = 'hello world';
 // * Don't mess with the test code below here!
 
 test('isTruthy', () => {
@@ -107,7 +107,7 @@ TODO: unassigned.
 */
 
 // * Add your code BELOW here
-let notAssigned = unassigned;
+let notAssigned;
 // * Don't mess with the test code below here!
 
 test('notAssigned', () => {

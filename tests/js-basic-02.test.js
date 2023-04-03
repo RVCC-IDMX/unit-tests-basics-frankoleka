@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable prefer-template */
 /* eslint-disable prefer-const */
 /* eslint-disable no-undef */
@@ -253,11 +254,10 @@ TODO: In the below area, you will practice making template literals
 // TODO: You must use the template literal syntax
 
 // * Add your code BELOW here
-let year = 2001;
-let firstName = 'John';
-let lastName = 'Smith';
-let string;
-string = 'Hi, my name is ' + firstName + lastName + ' and I was born in ' + year;
+const year = 2001;
+const firstName = 'John';
+const lastName = 'Smith';
+const message = `Hi, my name is ${firstName} ${lastName} and I was born in ${year}`;
 // * Don't mess with the test code below here!
 
 test('creating a message', () => {
@@ -278,9 +278,8 @@ test('creating a message', () => {
 // * Add your code BELOW here
 const tax = 8.25;
 const price = 100;
-// eslint-disable-next-line no-template-curly-in-string
-const total = 'Your total including tax is $${(price + (price * tax/100)).toFixed(2)}';
-console.log(total);
+
+const total = `Your total including tax is $${price + tax}`;
 // * Don't mess with the test code below here!
 
 test('creating a total', () => {
